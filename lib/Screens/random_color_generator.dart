@@ -17,7 +17,7 @@ class RandomColorGenerator extends StatefulWidget {
 
 class _RandomColorGeneratorState extends State<RandomColorGenerator> {
   int randomColor = Random().nextInt(0xffffffff);
-  double textFontSize = 30;
+  double textFontSize = 50;
   int maxColorLimit = 0xffffffff;
   @override
   Widget build(BuildContext context) {
