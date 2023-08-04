@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 /// This class is used to define all static functions
 class StaticFunctions {
-  /// this function return text color(black or white) based on the background
-  /// estimated brightness
+  /// this function return text color(black or white) based on the estimated brightness
+  /// of background color
 
   static Color textColorForBackground(Color backgroundColor) {
     const double conditionLimit = 0.7;
